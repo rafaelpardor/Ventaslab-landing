@@ -27,8 +27,20 @@ h1
     font-size: 40px;
     font-weight: 300;
     text-align: center;
+    margin: auto;
 }
 
+p
+{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+a
+{
+    text-decoration: none;
+}
 
 
 /* header */ 
@@ -86,6 +98,11 @@ figure {
 
 /* Hero */
 
+.hero
+{
+    margin-bottom: 150px;
+}
+
 .hero-image
 {
 background-image: url(/assets/img/circle_sales.png);
@@ -93,16 +110,85 @@ justify-content: center;
 align-items: center;
 display: flex;
 margin:auto;
-padding: 100px 0px 0px 20px;
+padding: 100px 0px 30px 20px;
 
 }
 
 
 /* Information */
 
-.description
+.feature {
+    border-top: 1px solid rgb(61, 153, 147);
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.information-imageContainer
+{
+margin:auto;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+/* Call to action */
+
+.calltoaction
+{
+    background: rgb(0, 127, 119);
+    height: 200px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+input
 {
     text-align: center;
-    font-size: 25px;
-    font-weight: 300;
+}
+
+.form-email input 
+{
+    border-color: gray;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border-style: solid;
+
+}
+
+button 
+{
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 100px;
+    width: 150px;
+    margin: auto;
+    font-size: 40px;
+}
+
+.footer
+{
+    background: rgb(0, 64, 59);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.footer div a 
+{
+    color: black;
+    font-weight: bold;
 }
