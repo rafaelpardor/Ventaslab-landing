@@ -3,23 +3,33 @@
 .flexbox {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-.wrapper {
-    max-width: 1000px;
+.wrapper 
+{
+    max-width: 800px;
     width: 100%;
     margin: 0px auto;
     display: inherit;
     justify-content: inherit;
     align-items: inherit;
     flex-wrap: inherit;
-    box-shadow: 3px5px33px#888888;
 }
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
 }
+
+h1
+{
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
 
 /* header */ 
 
@@ -28,7 +38,7 @@ body {
 }
 
 .header {
-    background-color: rgb(93, 193, 185);
+    background-color: rgb(0, 163, 152);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -72,4 +82,27 @@ ul {
 
 figure {
     margin: 0;
+}
+
+/* Hero */
+
+.hero-image
+{
+background-image: url(/assets/img/circle_sales.png);
+justify-content: center;
+align-items: center;
+display: flex;
+margin:auto;
+padding: 100px 0px 0px 20px;
+
+}
+
+
+/* Information */
+
+.description
+{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
 }
